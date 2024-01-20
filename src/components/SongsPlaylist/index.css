@@ -1,0 +1,44 @@
+.playlist-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+.img-and-name-container {
+  display: flex;
+}
+.track-img {
+  height: 120px;
+}
+.name-and-genre-container {
+  margin-left: 15px;
+}
+.song-name {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
